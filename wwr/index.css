@@ -3,19 +3,19 @@
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 .home-title {
-    font-family: 'Titan One, Times New Roman, Tahoma' ;
+    font-family: 'Titan One' ;
     font-size: 2em;
 }
 .book {
-    font-family: 'Titan One,Times New Roman, Tahoma';
+    font-family: 'Titan One';
     font-size: 2em;
 }
 .join {
-    font-family: 'Titan One, Times New Roman, Tahoma';
+    font-family: 'Titan One';
     font-size: 18px;
 }
 .msg p{
-    font-family: 'Titan One, Times New Roman, Tahoma';
+    font-family: 'Titan One';
     font-size: auto;
     line-height: 1.5em;
 }
@@ -76,11 +76,11 @@ nav a:hover {
     color:yellow;
 } 
 .home-title{
-    background-color: #000000;
+    background-color: white;
     color: #d9c2a3;
 }
 h4 {
-    background-color: #000000;
+    background-color: white;
     color: #d9c2a3;
 }
 .book{
@@ -104,7 +104,7 @@ h4 {
     color: #d9c2a3;
 }
 .msg p{
-    background-color: #000000;
+    background-color: black;
     color: #d9c2a3;
 }
 footer{
@@ -278,4 +278,28 @@ main section img {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.book{
+    padding: 15px;
+}
+.join{
+    padding: 30px;
+}
+.icon{
+    padding-top: 10px;
+}
+.msg{
+    padding: 35px;
+}
+.msg p{
+    padding-bottom: 15px;
+}
+.footer{
+    padding: 25px 50px;
+}
+footer .social img {
+    padding-top: 15px;
 }
