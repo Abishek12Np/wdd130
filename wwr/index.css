@@ -3,19 +3,19 @@
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 .home-title {
-    font-family: 'Titan One' ;
+    font-family: 'Titan One, Times New Roman, Tahoma' ;
     font-size: 2em;
 }
 .book {
-    font-family: 'Titan One';
+    font-family: 'Titan One,Times New Roman, Tahoma';
     font-size: 2em;
 }
 .join {
-    font-family: 'Titan One';
+    font-family: 'Titan One, Times New Roman, Tahoma';
     font-size: 18px;
 }
 .msg p{
-    font-family: 'Titan One';
+    font-family: 'Titan One, Times New Roman, Tahoma';
     font-size: auto;
     line-height: 1.5em;
 }
