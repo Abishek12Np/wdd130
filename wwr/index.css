@@ -397,6 +397,77 @@ footer {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+
+
+h1{
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 35%;
+    padding-bottom: 10px;
+    padding-left: 80px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.mikey{
+    float: left;
+    width: 30%;
+    padding-top: 10px;
+    padding-left: 125px;
+
+}
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.avi{
+    float: left;
+    width: 25%;
+    padding-top: 10px;
+    padding-left: 160px;
+
+}
+.row2::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Design */
 
 @media screen and (max-width: 900px) {
