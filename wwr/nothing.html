@@ -4,28 +4,15 @@
   <head>
     <meta charset="utf-8">
     <title>New Tab</title>
-    <style>
-      body {
-        background: #35363A;
-        margin: 0;
-      }
-
-      #backgroundImage {
-        border: none;
-        height: 100%;
-        pointer-events: none;
-        position: fixed;
-        top: 0;
-        visibility: hidden;
-        width: 100%;
-      }
-
-      [show-background-image] #backgroundImage {
-        visibility: visible;
-      }
-    </style>
   </head>
   <body>
+
+
+    <div class="topnav">
+      
+      <input type="text" placeholder="Search..">
+    </div>
+
     <iframe id="backgroundImage" src=""></iframe>
     <ntp-app></ntp-app>
     <script type="module" src="new_tab_page.js"></script>

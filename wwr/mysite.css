@@ -53,11 +53,11 @@ body {
     background-color: whitesmoke; 
 }
 header {
-    background-color: rgb(34, 58, 56)
+    background-color: #20BF55;
 
 }
 nav a:hover {
-    background-color:yellow;
+    background-color:#0B4F6C;
 }
 
 
@@ -97,7 +97,7 @@ h4 {
     color: #d9c2a3;
 }
 footer{
-    background-color: #6f7364;
+    background-color:#0B4F6C ;
     
  color: #d9c2a3;
 }
@@ -261,6 +261,7 @@ main section img {
 }
 .footer{
     padding: 25px 50px;
+    background-color: #0B4F6C;
 }
 footer .social img {
     padding-top: 15px;
@@ -515,3 +516,31 @@ h1{
         margin-top: 25px;
     }
 }
+
+.main {
+  display: grid;
+  grid-template-columns: 4fr 1fr 4fr ;  
+}
+
+.jeu1{
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+
+.jeu2{
+    grid-row: 1/3;
+    grid-column: 3/4;
+}
+
+.jeu4{
+    grid-row: 3/5;
+    grid-column: 1/2;
+}
+
+.jeu3{
+    grid-row: 3/5;
+    grid-column: 3/4;
+    margin-top: 100px;
+}
+
+
