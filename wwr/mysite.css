@@ -544,3 +544,155 @@ h1{
 }
 
 
+
+/* Page 2 CSS */
+
+body{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.news{
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr 5fr 1fr;
+    margin-top: 10px;
+}
+
+#news_link{
+    grid-column: 2/3;
+    margin-top: 21px;
+
+}
+
+#news_link img{
+    border: 3px solid #0B4F6C;
+}
+
+#news_link img:hover{
+    opacity: .6;
+    scale: 1.1;
+}
+
+#news_link a{
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+}
+
+#news_link a p:hover{
+    font-style: italic;
+    color: #0B4F6C;
+}
+
+#news_pic{
+    grid-column: 4/5;
+    margin-top: 21px;
+    
+}
+
+#news_pic img{
+    border: 3px solid #0B4F6C;
+}
+
+#news_pic img:hover{
+    opacity: .6;
+    scale: 1.1;
+}
+
+.update{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 4fr 1fr 5fr;
+    margin-top: 60px;
+}
+
+#top{
+    grid-column: 2/3;
+}
+
+#search{
+    grid-column: 4/5;
+    text-align: center;
+}
+
+#update_pic{
+    grid-column: 6/7;
+}
+
+#top img{
+    border: 3px solid #0B4F6C;
+}
+
+#top img:hover{
+    opacity: .6;
+    scale: 1.1;
+}
+
+#top a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+#top a:hover{
+    font-style: italic;
+    color: #0B4F6C;
+}
+
+
+#search img{
+    border: 3px solid #0B4F6C;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+#search img:hover{
+    opacity: .6;
+    scale: 1.1;
+}
+
+#search input{
+    border:2px solid#0B4F6C ;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+#search a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+#search a:hover{
+    font-style: italic;
+    color: #0B4F6C;
+}
+
+#update_pic img{
+    border: 3px solid #0B4F6C;
+}
+
+#update_pic img:hover{
+    opacity: .6;
+    scale: 1.1;
+}
+
+.game_update{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.game_update a{
+    text-decoration: none;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: 25px;
+}
+
+.game_update a:hover{
+    font-style: italic;
+    color: #0B4F6C;
+}
